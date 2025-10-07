@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Certificate</title>
+  <style>
+    body {
+      font-family: "Times New Roman", Georgia, serif; /* Serif font family */
+      text-align: center;
+      padding: 100px;
+      background-color: #ffffff;
+    }
+    button {
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      padding: 14px 28px;
+      font-size: 18px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      font-family: "Times New Roman", Georgia, serif; /* Serif font */
+      font-weight: 600;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <button onclick="openCertificate()">Course Certificate</button>
+
+  <script>
+    function openCertificate() {
+      // Opens the PDF directly in a new tab
+      window.open("Brief Introduction to Psychology.pdf", "_blank");
+    }
+  </script>
+
+</body>
+</html>
