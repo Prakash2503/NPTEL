@@ -3,43 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Course Certificate</title>
+  <title>Custom Link Button</title>
   <style>
     body {
-      font-family: "Times New Roman", Georgia, serif; /* Serif font family */
+      font-family: Arial, sans-serif;
       text-align: center;
       padding: 100px;
-      background-color: #ffffff;
+      background: #f9f9f9;
     }
-    button {
+    a.button {
+      display: inline-block;
       background-color: #007BFF;
       color: white;
-      border: none;
+      text-decoration: none;
       padding: 14px 28px;
       font-size: 18px;
-      border-radius: 6px;
-      cursor: pointer;
+      border-radius: 8px;
       transition: background-color 0.3s;
-      font-family: "Times New Roman", Georgia, serif; /* Serif font */
-      font-weight: 600;
     }
-    button:hover {
+    a.button:hover {
       background-color: #0056b3;
     }
   </style>
 </head>
 <body>
 
-  <button onclick="openCertificate()">Course Certificate</button>
-
-  <script>
-    function openCertificate() {
-      // Opens the PDF directly in a new tab
-      window.open("Stress Management.pdf", "_blank");
-    }
-  </script>
+  <a href="https://scan.page/p/SQqbL5" target="_blank" class="button">My Custom Link</a>
 
 </body>
 </html>
-
-
